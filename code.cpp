@@ -1,11 +1,13 @@
 #include<iostream>
 using namespace std;
 
+void fun(){
+    int x = 25;
+    cout<<x<<endl;
+}
+
 int main(){
-   int a = 5;
-   int b = 2;
-   double c = (double)a/b;
-   cout<<c;
+    
 
     return 0;
 }

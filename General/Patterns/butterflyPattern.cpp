@@ -50,3 +50,5 @@ int main(){
 
     return 0;
 }
+
+//can u directly draw i starts and n-i spaces in every line withour bifurcating, or maybe the wntire line, 2i stars and 2*(n-i) spaces??
