@@ -43,13 +43,27 @@ int main(){
         //stars1
         cout<<"*";
         //spaces2
-        for(int j=(n-1); j>=2; j--){
-            cout<<"_";
+        for(int j=n-i; j>1; j--){
+            cout<<" ";
         }
-        // //stars2
-        // cout<<"*";
+        //spaces3
+        for(int j=n-i-1; j>1; j--){
+            cout<<" ";
+        }
+        //stars2
+        if(i!=n-1){
+            cout<<"*";
+        }
         cout<<endl;
     };
 
     return 0;
 }
+
+//Notes
+/*There's no need of a count variable, all its doing is keeping track of
+what iteration we're on and clearly i does that, thats the whole reason for using i, 
+first think what we need, we need star to not be there on first line
+but what does first line mean? it means firest iteratio and the iteration
+identifier is just i 
+*/
