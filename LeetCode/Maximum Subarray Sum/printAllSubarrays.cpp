@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n;
+    cout<<"Enter number of elements: ";
+    cin>>n;
+    int a[n];
+    cout<<"Enter array elements: ";
+    for(int i=0; i<n; i++){
+        cin>>a[i];
+    };
+
+    for(int start=0; start<n; start++){
+        for(int end=start; end<n; end++){
+            for(int i=start; i<=end; i++){
+                cout<<a[i];
+            }
+            cout<<" ";
+        }
+        cout<<endl;
+    };
+
+    return 0;   
+}

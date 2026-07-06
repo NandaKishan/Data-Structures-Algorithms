@@ -1,0 +1,1 @@
+// I thought of the optimal solution in first try haha
