@@ -27,7 +27,7 @@ int main(){
         }
     };
 
-    cout<<"Majority element is: "<<ans<<endl;
+    cout<<"The majority element is: "<<ans<<endl;
 
     return 0;
 }
